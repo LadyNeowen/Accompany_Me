@@ -114,10 +114,11 @@ img {
     margin-top: 0;
     
 }
-.right-about-heading {
-   outline: inset;
-}
 
+#come-to, #love {
+    background-color: rgba(78, 160, 146, 0.7);
+
+}
 .right-about-heading > h2 {
     background-color: rgba(78, 160, 146, 0.7);
 }
