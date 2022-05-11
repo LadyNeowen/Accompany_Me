@@ -1,7 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Merriweather, sans-serif;
     font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 3px;
+    color: #3a3a3a;
+    text-transform: capitalize;
+}
+
+#logo {
+    color:#3a3a3a;
+    margin:5px;
     border:none;
+    padding:10px;
+    float:left;
+    font-size: 200%;
+}
+
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px; 
+}
+
+#menu a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#menu a:hover {
+    border-bottom:2px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 2px solid #3a3a3a;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 1100px;
+    repeat:no-repeat;
+    overflow: hidden;
+    float: left;
+}
+
+#reasons {
+    height: 600px;
+}
+
+#right-about {
+    border: 1px solid #3a3a3a;
+    box-sizing: border-box;
+    float: right;
+    margin: 30px;
+    padding: 25px;
+    background-color: green;
 }
