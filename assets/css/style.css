@@ -115,7 +115,7 @@ img {
     
 }
 .right-about-heading {
-    outline-style: outset;
+   outline: inset;
 }
 
 .right-about-heading > h2 {
