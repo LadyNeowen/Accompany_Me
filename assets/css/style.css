@@ -111,9 +111,9 @@ img {
     left:1275px;
     position: absolute;
     text-align: center;
-    margin-top: 0;
-    
+    margin-top: 0;    
 }
+
 
 #come-to, #love {
     background-color: rgba(78, 160, 146, 0.7);
@@ -125,7 +125,6 @@ img {
 
 p {
     background-color: rgba(78, 160, 146, 0.445);
-    opacity: 0.9;
     text-align: center;
     color:black;
     font-weight: bold;
@@ -151,4 +150,15 @@ footer {
     padding: 5%;
     color:rgb(26, 6, 236);
     letter-spacing: 5px;
+}
+
+#edna {
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#edna-text {
+    background-color: rgb(58, 136, 189);
+    text-align: left;
 }
