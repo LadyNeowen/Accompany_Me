@@ -162,3 +162,14 @@ footer {
     background-color: rgb(58, 136, 189);
     text-align: left;
 }
+
+.gallery-inner {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0px;
+    }
+    
+    .gallery-inner > img {
+        width: 100%;
+    }
