@@ -12,10 +12,9 @@ body {
     background-color: rgb(207, 141, 55);
 }
 
-h1, h2, h3 {
+    h1, h2, h3 {
     font-family: Merriweather, sans-serif;
     letter-spacing: 3px;
-    color: #3a3a3a;
     text-transform: capitalize;
 }
 
@@ -29,7 +28,7 @@ h1, h2, h3 {
 }
 .nav-left h1 a,
 a:visited {
-  color: #3a3a3a;
+  color: #fff;
 }
 
 a:hover, a:link, a:active
@@ -92,6 +91,7 @@ img {
     margin-bottom: 80px;
     padding: 40px;
     background-color: rgb(51, 145, 145);
+    color:#fff;
 }
 
 
@@ -129,4 +129,26 @@ p {
     text-align: center;
     color:black;
     font-weight: bold;
+}
+
+footer {
+    height: 150px;
+}
+
+.social {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color:rgb(26, 6, 236);
+    letter-spacing: 5px;
 }
