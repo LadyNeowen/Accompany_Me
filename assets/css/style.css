@@ -174,7 +174,12 @@ footer {
         width: 100%;
     }
 
-    #gallery-footer {
-        bottom: 10px;
-        clear: both;
+    #signup-img {
+        width: 1000px;
+        height: 800px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border-radius: 8px;
+        position: relative;
     }
