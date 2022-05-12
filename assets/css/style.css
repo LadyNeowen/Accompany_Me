@@ -173,3 +173,8 @@ footer {
     .gallery-inner > img {
         width: 100%;
     }
+
+    #gallery-footer {
+        bottom: 10px;
+        clear: both;
+    }
